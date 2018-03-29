@@ -1,0 +1,28 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePathRelativeToProjectRoot$" />
+    <option name="checkSyntaxErrors" value="false" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="NEVER" />
+    <option name="fileExtension" value="py" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="flake8" />
+    <option name="output" value="" />
+    <option name="outputFilters">
+      <array>
+        <FilterInfo>
+          <option name="description" value="" />
+          <option name="name" value="" />
+          <option name="regExp" value="$FILE_PATH$:$LINE$:$COLUMN$: $MESSAGE$" />
+        </FilterInfo>
+      </array>
+    </option>
+    <option name="outputFromStdout" value="true" />
+    <option name="program" value="$PyInterpreterDirectory$/flake8" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="All Places" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ProjectFileDir$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>
